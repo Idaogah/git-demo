@@ -18,8 +18,9 @@ __*
 # but do track error.log, even though you're ignoring .log files above 
 !error.log 
 
-# ignore any file or directory with the name "TODO" in the root directory  
+# ignore any file or directory with the name "TODO" or "credentials" in the root directory  
 /TODO
+/credentials
 
 #ignore file with the name config
 /config*
